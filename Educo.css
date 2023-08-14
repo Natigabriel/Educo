@@ -1,0 +1,771 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    
+}
+:root{
+    --red:red;
+    --black:black;
+    --green: green;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    min-width: 100%;
+    border: 1px solid var(--green);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 4%;
+    background-color: white;
+    max-width: 100%;
+    min-width: 100%;
+    border: 1px solid var(--green);
+}
+nav span{
+    font-size: 2rem;
+     font-weight: 900;
+}
+.navbar2{
+    display: flex;
+    align-items: center;
+    gap: 2.5em;
+    font-size: 1.5rem;
+}
+.navbar2 a{
+    text-decoration: none;
+    color: black;
+}
+.navbar3{
+     display: flex;
+     gap: 1em;
+     align-items: center;
+}
+.navbar4{
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: white;
+    border: 0.5px solid;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.navbar5{
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+.hamburger{
+    display: none;
+}
+.input1{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    min-width: 100%;
+   border: 1px solid var(--red);
+   height: 110vh;
+}
+.input2{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-top: 6%;
+    flex-wrap: wrap;
+    min-width: 300px;
+    max-width: 100%;
+    border: 1px solid var(--red);
+    width: 40%;
+    flex-grow: 0.7;
+}
+.input2 p:nth-child(1){
+    font-size: 4rem;
+    font-weight: 600;
+    border: 1px solid var(--black);
+    width: 50em;
+    /* min-width: 300px; */
+    max-width: 100%;
+}
+.input2 p:nth-child(2){
+    font-size: 1.4rem;
+    border: 1px solid var(--green);                 
+    width: 22em;
+    max-width: 100%;
+}
+.input7 input{
+      border: 2px solid black;
+      border-radius: 10px;
+      width: 500px;
+      height: 70px;
+      font-size: 1.4rem;
+      padding-left: 10px; 
+          
+}
+.input7{
+    display: flex;
+    max-width: 100%;
+    min-width: 300px;
+}
+.input8{
+    border-radius: 10px;
+    border-right: 10px solid;
+}
+.input9{
+    display: flex;
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    color: white;
+    z-index: 200;
+    padding-left: 30px;
+    align-items: center;
+    padding-top: 20px;
+    margin-left: -50px;
+}
+.input10{
+    font-size: 2rem;
+    font-weight: 520;
+    border: 1px solid var(--red);
+    width: 32%;
+}
+.input6{
+    font-weight: 900;
+    font-size: 2rem;
+}
+.overlapimage{
+   /* left: -662px; */
+   position: relative;
+   border: 1px solid var(--green);
+   width: 42%;
+ min-width: 300px;
+ max-width: 100%;
+ display: flex;
+ 
+
+   
+   
+}
+.overlapimage img{
+    width: 30vw;
+    min-width: 300px;
+    
+}
+.overlapimage img:last-child{
+    width: 37vw;
+    height: 90vh;
+    min-width: 300px;
+}
+.overlapimage :nth-child(1){
+    position: absolute;
+    top: 176px;
+    left: 150px;
+   
+}
+.overlapimage :nth-child(2){
+    position: absolute;
+    left: 44px;
+}
+.overlapimage :nth-child(3){
+    position: absolute;
+    top: 176px;
+    left:-25px;
+}
+.overlapimage :nth-child(4){
+    position: absolute;
+    left: -83px;
+}
+.afterimage{
+    margin-top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.afterimage p{
+    font-size: 17px;
+}
+.afterimage1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.afterimage2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.afterimage3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.afterimage4{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.access1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+.access2{
+    font-size: 40px;
+    font-weight: 750;
+}
+.access3{
+    font-size: 17px;
+}
+.access4{
+     width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+.course{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 80px;
+}
+.course1{
+     font-size: 40px;
+    font-weight: 750;
+}
+.course2{
+     font-size: 20px;
+   display: flex;
+   gap: 40px;
+}
+.course2 a{
+    text-decoration: none;
+    color: black;
+}
+.course3{
+    color: rgb(247, 170, 183);
+}
+.course4{
+    border: 1px solid rgb(247, 170, 183);
+    width: 125px;
+    height: 1px;
+    position: absolute;
+    margin-top: 30px;
+}
+.ellipsis{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.ellipsis1{
+    border: 2px solid rgb(250, 247, 247);
+    font-size: 50px;
+    background: transparent;
+    color: purple;
+    border-radius: 60px;
+    padding-left: 20px;
+    padding-right: 20px;   
+}
+.ellipsis2{
+   background-color: purple;
+   border-radius: 50px;
+   border: 1px solid purple;
+   height: 20px;
+   width: 20px;
+   padding: 1px 8px 1px 8px; 
+}
+.ellipsis3{
+   background-color: rgb(179, 176, 176);
+   border-radius: 50px;
+   border: 1px solid gray;
+   padding: 1px 8px 1px 8px;
+    height: 20px;
+   width: 20px; 
+}
+.ellipsis4{
+     background-color: rgb(179, 176, 176);
+   border-radius: 50px;
+   border: 1px solid gray;
+   padding: 1px 8px 1px 8px; 
+    height: 20px;
+   width: 20px;
+}
+.ellipsis5{
+     border: 2px solid rgb(250, 247, 247);
+    font-size: 50px;
+    background: transparent;
+    color: purple;
+    border-radius: 60px;
+    padding-left: 20px;
+    padding-right: 20px;   
+}
+.knowledge{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.knowledge1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.knowledge2{
+    font-size: 40px;
+    font-weight: 750;
+}
+.knowledge3{
+    font-size: 17px;
+}
+.knowledge4{
+     width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+.transform{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.transform1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.transform2{
+    font-size: 40px;
+    font-weight: 750;
+}
+.transform3{
+    font-size: 17px;
+}
+.transform4{
+     width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+.student{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+.student1{
+    font-size: 40px;
+    font-weight: 750;
+}
+.marq1{
+   padding-left: 30px;
+}
+.schools{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+.schools1{
+    font-size: 40px;
+    font-weight: 750;
+    text-align: center;
+}
+.schools2{
+    display: flex;
+    gap: 50px;
+}
+.schools2 img{
+   width: 60%;
+   height: 10vh;
+}
+.footer1{
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.footer1 a{
+    color: white;
+    text-decoration: none;
+}
+.footer2{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    /* padding-left: 400px; */
+}
+.footer3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+}
+.footer4{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer5{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.footer6{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer7{
+   display: flex;
+   align-items: start;
+   gap: 400px;
+   padding-left: 50px;
+}
+.footer8{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer9{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+}
+
+
+
+@media screen and (max-width: 750px) {
+    
+    
+    .navbar2 {
+        display: none;
+    }
+    .navbar3 {
+        display: none;
+    }
+    .hamburger {
+         display: flex;
+         flex-direction: column;
+         gap: 10px;
+    }
+    .hamburger span {
+        width: 70px;
+        height: 9px;
+        background: black;
+    }
+    .menu {
+        display: none;
+        width: 50%;
+        background: #000;
+        color: #ece9e9;
+    }
+    .overlapimage{
+        margin: 0 auto;
+    }
+    .overlapimage img:last-child{
+      height: 65vh;
+    }
+     
+    /* .input1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 40px;
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+    .input2{
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+    }
+    .input3{
+        font-size: 95px;
+        font-weight: 700;
+    }
+    .input4{
+       
+        font-size: 45px;
+    }
+    .input5{
+        width: 100%;
+        height: 120px;
+        border: 3px solid black;
+        font-size: 40px;
+    }
+    .input9{
+        width: 100px;
+        height: 120px;
+        padding-top: 50px;
+        padding-right: 30px;
+    }
+    .input10{
+        display: none;
+    }
+    .overlapimage{
+       margin-left: -300px;
+    }
+    .overlapimage img{
+       padding-top: 40px;
+      
+       width: 600px;
+    }
+    .imag4{
+        height: 117vh;
+        left: 50px;
+    }
+    .afterimage{
+        margin-top: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:100px 0px 100px 0px;
+    }
+    .afterimage3 img{
+        padding-left: 100px;
+    }
+    .afterimage img{
+        width: 30%;
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .afterimage p{
+        font-size: 55px;
+        padding-left: 5px;
+        
+    }
+    .access1{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        padding:100px 0px 100px 0px;
+    }
+    .access1 img{
+        width: 100%;
+    }
+    .access2{
+        font-size: 95px;
+    }
+    .access3{
+        font-size: 42px;
+    }
+    .access4{
+        font-size: 45px;
+        width: 500px;
+        height: 100px;
+    }
+    .course{
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .course1{
+        font-size: 90px;
+        text-align: center;
+    }
+    .course2{
+        display: flex;
+        flex-direction: column;
+    }
+    .course2 a{
+        font-size: 50px;
+    }
+    .course4{
+        width: 310px;
+        border: 3px solid rgb(247, 170, 183);
+        margin-top: 64px;
+    }
+    .course img{
+       display: none;
+    }
+    .ellipsis{
+        display: none;
+    }
+    .knowledge{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 50px;
+        text-align: center;
+        padding:100px 0px 100px 0px;
+    }
+    .knowledge1{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .knowledge img{
+        width: 90%;
+        padding-top: 40px;
+        height: 100vh;
+    }
+    .knowledge3{
+        font-size: 42px;
+    }
+    .knowledge4{
+        font-size: 42px;
+        width: 480px;
+        height: 130px;
+    }
+    .knowledge2{
+        font-size: 95px;
+    }
+    .transform{
+        display: flex;
+        flex-direction: column;
+      text-align: center;
+       gap: 70px;
+       padding:100px 0px 100px 0px;
+    }
+    .transform1{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .transform img{
+        width: 90%;
+        height: 90vh;
+    }
+    .transform2{
+        font-size: 95px;
+    }
+    .transform3{
+        font-size: 42px;
+    }
+    .transform4{
+        font-size: 42px;
+        width: 400px;
+        height: 110px;
+    }
+    .student img{
+        width: 550px;
+        height: 400px;
+    }
+    .student{
+        display:flex ;
+        flex-direction: column;
+        gap: 50px;
+        padding:100px 0px 100px 0px;
+    }
+    .student1{
+        font-size: 95px;
+    }
+    .schools{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        padding:100px 0px 100px 0px;
+    }
+    .schools1{
+        font-size: 90px;
+    }
+    .schools2{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+    }
+    .schools2 img{
+        width: 37%;
+        height: 45vh;
+    }
+    .footer1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer1 p, a {
+        font-size: 30px;
+    }
+    .footer1 h4 {
+        font-size: 40px;
+    }
+    .footer2{
+            display: flex;
+            justify-content: center;
+            gap: 130px;
+            margin-top: -300px;
+    
+    }
+    .footer9{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer3{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer4{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer5{
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+        
+    }
+    .footer7 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        font-size: 30px;
+       
+        padding-left: 50px;
+    } */
+    
+}
