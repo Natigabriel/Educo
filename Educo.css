@@ -22,6 +22,7 @@ main{
     display: flex;
     flex-direction: column;
     gap: 5em;
+    
 }
 nav{
     display: flex;
@@ -82,7 +83,8 @@ nav span{
     max-width: 100%;
     min-width: 100%;
    border: 1px solid var(--red);
-   height: 110vh;
+   row-gap: 3vh;
+   /* height: 110vh; */
 }
 .input2{
     display: flex;
@@ -93,22 +95,22 @@ nav span{
     min-width: 300px;
     max-width: 100%;
     border: 1px solid var(--red);
-    width: 40%;
-    flex-grow: 0.7;
+    width: 52%;
+    /* flex-grow: 0.9; */
 }
 .input2 p:nth-child(1){
     font-size: 4rem;
     font-weight: 600;
     border: 1px solid var(--black);
-    width: 50em;
+    width: 100%;
     /* min-width: 300px; */
-    max-width: 100%;
+    /* max-width: 100%; */
 }
 .input2 p:nth-child(2){
     font-size: 1.4rem;
     border: 1px solid var(--green);                 
-    width: 22em;
-    max-width: 100%;
+    width: 73%;
+    /* max-width: 100%; */
 }
 .input7 input{
       border: 2px solid black;
@@ -123,6 +125,7 @@ nav span{
     display: flex;
     max-width: 100%;
     min-width: 300px;
+    /* width: 100%; */
 }
 .input8{
     border-radius: 10px;
@@ -154,74 +157,57 @@ nav span{
    /* left: -662px; */
    position: relative;
    border: 1px solid var(--green);
-   width: 42%;
- min-width: 300px;
+   width: 40%;
+ /* min-width: 300px; */
  max-width: 100%;
- display: flex;
- 
-
-   
-   
 }
 .overlapimage img{
-    width: 30vw;
-    min-width: 300px;
-    
+    width: 20vw;
 }
 .overlapimage img:last-child{
-    width: 37vw;
-    height: 90vh;
-    min-width: 300px;
+    width: 25vw;
+    /* height: 90vh; */
+    /* min-width: 300px; */
 }
 .overlapimage :nth-child(1){
     position: absolute;
-    top: 176px;
-    left: 150px;
+    top: 26%;
+    left: 20%;
    
 }
 .overlapimage :nth-child(2){
     position: absolute;
-    left: 44px;
+    left: 8%;
 }
 .overlapimage :nth-child(3){
     position: absolute;
-    top: 176px;
-    left:-25px;
+    top: 29%;
+    left: -3%;
 }
 .overlapimage :nth-child(4){
     position: absolute;
-    left: -83px;
+    left: -13%;
 }
 .afterimage{
-    margin-top: 300px;
+    border: 1px solid var(--black);
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 1.5rem;
+    max-width: 100%;
+    min-width: 100%;
+    flex-wrap: wrap;
 }
 .afterimage p{
-    font-size: 17px;
+    font-size: 1.4rem;
 }
 .afterimage1{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 1rem;
+    min-width: 300px;
 }
-.afterimage2{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.afterimage3{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.afterimage4{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
+
 .access1{
     display: flex;
     flex-direction: column;
@@ -505,86 +491,17 @@ nav span{
         background: #000;
         color: #ece9e9;
     }
-    .overlapimage{
-        margin: 0 auto;
-    }
-    .overlapimage img:last-child{
-      height: 65vh;
-    }
-     
-    /* .input1 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        gap: 40px;
-        padding-bottom: 100px;
-        padding-top: 100px;
-    }
-    .input2{
-        display: flex;
-        flex-direction: column;
-        gap: 70px;
-    }
-    .input3{
-        font-size: 95px;
-        font-weight: 700;
-    }
-    .input4{
-       
-        font-size: 45px;
-    }
-    .input5{
+    .input2 p:nth-child(2){
         width: 100%;
-        height: 120px;
-        border: 3px solid black;
-        font-size: 40px;
     }
-    .input9{
-        width: 100px;
-        height: 120px;
-        padding-top: 50px;
-        padding-right: 30px;
-    }
-    .input10{
-        display: none;
-    }
-    .overlapimage{
-       margin-left: -300px;
-    }
-    .overlapimage img{
-       padding-top: 40px;
-      
-       width: 600px;
-    }
-    .imag4{
-        height: 117vh;
-        left: 50px;
-    }
+     .input10{
+        width: 100%;
+        text-align: center;
+     }
     .afterimage{
-        margin-top: 900px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding:100px 0px 100px 0px;
+        margin-top: 22%;
     }
-    .afterimage3 img{
-        padding-left: 100px;
-    }
-    .afterimage img{
-        width: 30%;
-        height: 25vh;
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .afterimage p{
-        font-size: 55px;
-        padding-left: 5px;
-        
-    }
-    .access1{
+    /* .access1{
         display: flex;
         flex-direction: column;
         gap: 60px;
@@ -766,6 +683,6 @@ nav span{
         font-size: 30px;
        
         padding-left: 50px;
-    } */
+    }  */
     
 }
