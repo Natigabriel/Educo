@@ -214,25 +214,37 @@ nav span{
     align-items: center;
     gap: 20px;
     text-align: center;
-    margin-top: 100px;
+    max-width: 100%;
+    min-width: 100%;
 }
-.access2{
-    font-size: 40px;
+
+.access1 p:nth-child(1){
+    font-size: 3rem;
     font-weight: 750;
+    border: 1px solid var(--green);
+    width: 64%;
 }
-.access3{
-    font-size: 17px;
+.access1 p:nth-child(2){
+    font-size: 1.3rem;
+    border: 1px solid var(--red);
+    width: 39%;
 }
 .access4{
      width: 170px;
     height: 60px;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 1.5rem;
     background-color: black;
     color: white;
     text-decoration: none;
     border: none;
     cursor: pointer;
+}
+.access1 img{
+    max-width: 100%;
+    min-width: 300px;
+    flex-shrink: 1;
+    flex-grow: 1;
 }
 .course{
     display: flex;
@@ -241,11 +253,11 @@ nav span{
     padding-left: 80px;
 }
 .course1{
-     font-size: 40px;
+     font-size: 3rem;
     font-weight: 750;
 }
 .course2{
-     font-size: 20px;
+     font-size: 1.5rem;
    display: flex;
    gap: 40px;
 }
@@ -253,15 +265,10 @@ nav span{
     text-decoration: none;
     color: black;
 }
-.course3{
+.course2 span a{
     color: rgb(247, 170, 183);
-}
-.course4{
-    border: 1px solid rgb(247, 170, 183);
-    width: 125px;
-    height: 1px;
-    position: absolute;
-    margin-top: 30px;
+    border-bottom: 2px solid rgb(247, 170, 183);
+    padding-bottom: 8%;
 }
 .ellipsis{
     display: flex;
